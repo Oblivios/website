@@ -1,0 +1,194 @@
+.justify-center {
+    justify-content: center;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.h-16 {
+    height: 4rem;
+}
+
+.flex {
+    display: flex;
+}
+
+*, :after, :before {
+    --tw-blur: var(--tw-empty,/*!*/ /*!*/);
+    --tw-brightness: var(--tw-empty,/*!*/ /*!*/);
+    --tw-contrast: var(--tw-empty,/*!*/ /*!*/);
+    --tw-grayscale: var(--tw-empty,/*!*/ /*!*/);
+    --tw-hue-rotate: var(--tw-empty,/*!*/ /*!*/);
+    --tw-invert: var(--tw-empty,/*!*/ /*!*/);
+    --tw-saturate: var(--tw-empty,/*!*/ /*!*/);
+    --tw-sepia: var(--tw-empty,/*!*/ /*!*/);
+    --tw-drop-shadow: var(--tw-empty,/*!*/ /*!*/);
+    --tw-filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
+
+:after, :before {
+    --tw-content: "";
+}
+
+*, :after, :before {
+    box-sizing: border-box;
+    border: 0 solid;
+}
+
+#__next {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+div {
+    display: block;
+}
+
+body, html {
+    min-height: 100vh;
+    font-variant-numeric: slashed-zero;
+}
+
+link {
+    display: none;
+}
+
+body {
+    margin: 0;
+    line-height: inherit;
+}
+
+hr {
+    border-top: 1px solid white;
+}
+
+li {
+    margin: 10px;
+    list-style-type: none;
+}
+
+html {
+    line-height: 1.5;
+    -webkit-text-size-adjust: 100%;
+    -moz-tab-size: 4;
+    -o-tab-size: 4;
+    tab-size: 4;
+    font-family: Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+}
+
+.center-horizontal {
+    display: flex;
+    align-items: center;
+}
+
+.container-center {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+}
+
+.text-slate-500 {
+    --tw-text-opacity: 1;
+    color: rgb(100 116 139/var(--tw-text-opacity));
+}
+
+.font-bold {
+    font-weight: 700;
+}
+
+.div-script {
+    margin-left: 30px; 
+    margin-top: 10px; 
+    margin-bottom: 10px;
+}
+
+.download-icon {
+    margin-left: 5px;
+    height: 20px;
+    width: 20px;
+}
+
+.div-projects {
+    margin-left: -15px;
+    margin-top: 5px;
+}
+
+.bg-gray-100 {
+    --tw-bg-opacity: 1;
+    background-color: #1e2022;
+}
+
+.text-gray-700 {
+    --tw-text-opacity: 1;
+    color: rgb(204, 204, 204);
+}
+
+a {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.animate-blink {
+    -webkit-animation: blink 1s infinite;
+    animation: blink 1s infinite;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+@keyframes blink {
+    0%, 100% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+}
+
+.github-theme {
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    color: rgb(204, 204, 204);
+    word-wrap: break-word;
+}
+
+.flex-1 {
+    flex: 1 1 0%;
+}
+
+.min-h-full {
+    min-height: 100%;
+}
+
+.my-10 {
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+}
+
+main {
+    display: block;
+}
+
+.github-theme:after, .github-theme:before {
+    display: table;
+    content: "";
+}
+
+.github-theme:after {
+    clear: both;
+}
+
+.github-theme:after, .github-theme:before {
+    display: table;
+    content: "";
+}
